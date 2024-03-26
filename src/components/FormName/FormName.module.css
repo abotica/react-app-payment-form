@@ -1,0 +1,10 @@
+.beforeTabName {
+    color: #696F75;
+    width: max-content;
+    padding-right: 3px;
+}
+
+.currentTabName {
+    font-weight: bold;
+    width: max-content;
+}

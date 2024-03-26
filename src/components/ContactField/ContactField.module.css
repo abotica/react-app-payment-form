@@ -1,0 +1,29 @@
+.container {
+    border: solid 2px #70C0F5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.input {
+    height: 2em;
+}
+
+.label {
+    color: #4F318E;
+}
+
+.validMail, .invalidMail {
+    padding: 0;
+    margin: 2px 0 0 0;
+    font-size: small;
+}
+
+.validMail {
+    color: #80ef7e;
+}
+
+.invalidMail {
+    color: red;
+}

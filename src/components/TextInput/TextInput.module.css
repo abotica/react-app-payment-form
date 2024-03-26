@@ -1,0 +1,18 @@
+.input {
+    height: 2em;
+    
+}
+
+.validText, .invalidText {
+    padding: 0;
+    margin: 2px 0 10px 0;
+    font-size: small;
+}
+
+.validText {
+    color: #80ef7e;
+}
+
+.invalidText {
+    color: red;
+}

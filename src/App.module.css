@@ -1,0 +1,58 @@
+.mainContainer {
+  height: 80vh;
+  width: 400px;
+  background: #EAEAEA;
+  border: 1px solid #C4C4C4;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.nameContainer {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.fieldsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+
+.submitButton {
+  width: 20%;
+  height: 5%;
+  border: none;
+  border-radius: 10px;
+  background-color: #80EF7E;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.radioButtonsFieldset{
+  border: solid 2px #70C0F5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.legend {
+  color: #4F318E;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+:disabled {
+  cursor: default;
+}
+
+
