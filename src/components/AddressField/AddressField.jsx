@@ -1,7 +1,7 @@
 import CountryDropdown from "../CountryDropdown/CountryDropdown"
 import TextInput from "../TextInput/TextInput"
 import style from "./AddressField.module.css"
-import { useContext, useEffect, useState } from "react"
+import { useContext, useState } from "react"
 import ValidityContext from '../Context'
 
 function AddressField({setName, setAddress, setCountry, name, address}){

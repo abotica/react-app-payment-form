@@ -1,4 +1,4 @@
-import { useId, useRef, useState, useEffect } from "react"
+import { useId, useEffect } from "react"
 import style from "./TextInput.module.css"
 
 function TextInput({setter, inputLabel, regex, text, setValidity, isValid, isDisabled}){
