@@ -11,3 +11,11 @@ This is a payment form application built using React. It leverages React hooks a
 - After a successful order, display a new box below the input form with a summary of all data. Try to use a separate component for displaying the summary and conditional rendering.
 
 ## Application Preview
+
+
+
+https://github.com/user-attachments/assets/a42e536f-843b-420b-900e-276c3c2df971
+
+
+
+
