@@ -1,8 +1,13 @@
-# React + Vite
+# Payment form
+## Introduction
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a payment form application built using React. It leverages React hooks and controlled components to manage the state and behavior of the form elements efficiently.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Implement controlled components for input fields, preferably as separate components.
+- Implement automatic validation on input change - email must contain "@" symbol, name and address must have a certain length, etc.
+- Display an alert message if the user presses the "Order" button without accepting the terms.
+- After a successful order, display a new box below the input form with a summary of all data. Try to use a separate component for displaying the summary and conditional rendering.
+
+## Application Preview
